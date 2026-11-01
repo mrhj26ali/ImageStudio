@@ -1,0 +1,16 @@
+Filter,Mode,Threads,Median_ms,StdDev_ms,Speedup,Efficiency
+Grayscale,Sequential,1,33374.00,382.72,1.00,1.00
+Grayscale,Parallel,2,18436.00,313.12,1.81,0.9051
+Grayscale,Parallel,4,12584.00,423.82,2.65,0.6630
+Grayscale,Parallel,8,11914.00,341.05,2.80,0.3502
+Grayscale,Parallel,16,12230.00,422.63,2.73,0.1706
+GaussianBlur,Sequential,1,69472.00,711.37,1.00,1.00
+GaussianBlur,Parallel,2,31907.00,327.52,2.18,1.0887
+GaussianBlur,Parallel,4,22976.00,380.38,3.02,0.7559
+GaussianBlur,Parallel,8,23244.00,271.62,2.99,0.3736
+GaussianBlur,Parallel,16,23529.00,354.85,2.95,0.1845
+Sobel,Sequential,1,69258.00,658.67,1.00,1.00
+Sobel,Parallel,2,31931.00,323.21,2.17,1.0845
+Sobel,Parallel,4,23414.00,522.83,2.96,0.7395
+Sobel,Parallel,8,23150.00,337.14,2.99,0.3740
+Sobel,Parallel,16,23439.00,256.73,2.95,0.1847
